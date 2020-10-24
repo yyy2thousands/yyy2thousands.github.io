@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Y2000
-subtitle:
-description:
-keywords:
+title: 歪兩千
+subtitle: 
+description: 喜歡爬山,看電影,程式教學的碼農
+keywords: 
 author: Y2000
-language: zh-cn
+language: zh-tw
 timezone: Asia/Taipei
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
