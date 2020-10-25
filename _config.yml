@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 歪兩千
+title: Y2K
 subtitle: 
-description: 喜歡爬山,看電影,程式教學的碼農
+description: Y2K 喜歡爬山,看電影,教學的小小碼農
 keywords: 
-author: Y2000
+author: Y2K
 language: zh-tw
 timezone: Asia/Taipei
 
@@ -15,7 +15,7 @@ timezone: Asia/Taipei
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://yyy2thousands.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:year:month:day/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -56,6 +56,17 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  Analytics: analytics
+  CSS3: css3
+  HTML: html
+  Hexo: hexo
+  JavaScript: javascript
+  Nodejs: node
+  SCS5: scss
+  Vue: vue
+  克服JS奇怪的部分系列: jsweirdworld
+  學習經驗: learnexp
+  test: test
 tag_map:
 
 # Date / Time format
@@ -81,3 +92,8 @@ deploy:
   type: git
   repository: git@github.com:yyy2thousands/yyy2thousands.github.io.git
   branch: master
+
+# abbrlink config
+abbrlink:
+  alg: crc32  # 演算法：crc16(default) and crc32 
+  rep: dec    # 進位制：dec(default) and hex
