@@ -22,5 +22,11 @@ tags:
 3. 找到 `github.com Access Key for ${yourmail@mail}` 刪除
 
 #### Windows
-1. 打開C:\Users\${UserName}\AppData\Local\Atlassian\SourceTree\passwd
-2. 刪除對應的key
+1. Source Tree -> Tools -> Options
+  ![image](/image/post/sourcetree-git-password-reset-2.png)  
+2. 刪除或編輯重設密碼
+
+#### 同場加映 Windows TortoiseGit 
+1. 控制台搜尋`Credential Manager` 
+   ![image](/image/post/tortorise-git-password.png)
+2. 找到Git，刪除或編輯重設密碼
