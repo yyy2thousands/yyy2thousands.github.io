@@ -88,7 +88,9 @@
 <meta property="og:description" content="遇到的問題一開始Github密碼輸入錯誤,或是修改了密碼誒，在push或是pull的時候source tree 會提示access denied，這是因為source tree一直使用錯誤的密碼到Github登入，當然是錯的拉！   解決方法Mac 打開啟動程式 -&amp;gt; 搜索鑰匙圈   打開鑰匙圈存取 找到 github.com Access Key for ${yourmail@mail}">
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://yyy2thousands.github.io/image/post/sourcetree-git-password-reset-1.png">
-<meta property="og:updated_time" content="2020-10-25T17:24:20.921Z">
+<meta property="og:image" content="https://yyy2thousands.github.io/image/post/sourcetree-git-password-reset-2.png">
+<meta property="og:image" content="https://yyy2thousands.github.io/image/post/tortorise-git-password.png">
+<meta property="og:updated_time" content="2020-10-26T15:01:06.926Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SourceTree重設Git密碼">
 <meta name="twitter:description" content="遇到的問題一開始Github密碼輸入錯誤,或是修改了密碼誒，在push或是pull的時候source tree 會提示access denied，這是因為source tree一直使用錯誤的密碼到Github登入，當然是錯的拉！   解決方法Mac 打開啟動程式 -&amp;gt; 搜索鑰匙圈   打開鑰匙圈存取 找到 github.com Access Key for ${yourmail@mail}">
@@ -371,8 +373,14 @@
 <li>找到 <code>github.com Access Key for ${yourmail@mail}</code> 刪除</li>
 </ol>
 <h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><ol>
-<li>打開C:\Users${UserName}\AppData\Local\Atlassian\SourceTree\passwd</li>
-<li>刪除對應的key</li>
+<li>Source Tree -&gt; Tools -&gt; Options</li>
+<li><img src="/image/post/sourcetree-git-password-reset-2.png" alt="image">  </li>
+<li>刪除或編輯重設密碼</li>
+</ol>
+<h4 id="同場加映-Windows-TortoiseGit"><a href="#同場加映-Windows-TortoiseGit" class="headerlink" title="同場加映 Windows TortoiseGit"></a>同場加映 Windows TortoiseGit</h4><ol>
+<li>控制台搜尋<code>Credential Manager</code> </li>
+<li><img src="/image/post/tortorise-git-password.png" alt="image"></li>
+<li>找到Git，刪除或編輯重設密碼</li>
 </ol>
 
       
@@ -550,7 +558,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#遇到的問題"><span class="nav-number">1.</span> <span class="nav-text">遇到的問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解決方法"><span class="nav-number">2.</span> <span class="nav-text">解決方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Mac"><span class="nav-number">2.0.1.</span> <span class="nav-text">Mac</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Windows"><span class="nav-number">2.0.2.</span> <span class="nav-text">Windows</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#遇到的問題"><span class="nav-number">1.</span> <span class="nav-text">遇到的問題</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解決方法"><span class="nav-number">2.</span> <span class="nav-text">解決方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Mac"><span class="nav-number">2.0.1.</span> <span class="nav-text">Mac</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Windows"><span class="nav-number">2.0.2.</span> <span class="nav-text">Windows</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#同場加映-Windows-TortoiseGit"><span class="nav-number">2.0.3.</span> <span class="nav-text">同場加映 Windows TortoiseGit</span></a></li></ol></li></ol></div>
             
 
           </div>
